@@ -1,0 +1,3 @@
+-- Package language. Written by the packer, not part of the shared source.
+local _, ns = ...
+ns.PACKAGE_LANG = "tr"

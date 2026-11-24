@@ -1,0 +1,27 @@
+## Interface: 16001
+## Title: Forever Diablo Arayüz |cFFC9A84C· Devsoy|r
+## Notes: Diablo havasında aksiyon barları, can ve mana küreleri. Seçilebilir buton çerçevesi, boyut ve görünürlük ayarı: /dui options
+## Author: Devsoy
+## Version: 1.0.0
+## X-Website: https://www.wowforeveraddon.com
+## SavedVariables: ForeverDiabloArayuzDB
+## IconTexture: Interface\Icons\Spell_Shadow_SoulGem
+
+Dil.lua
+Log.lua
+Core.lua
+Locale.lua
+Theme.lua
+Aurora.lua
+Xp.lua
+Vitals.lua
+Bars.lua
+Skin.lua
+Beat.lua
+Focus.lua
+Spells.lua
+Presets.lua
+Shard.lua
+Pages.lua
+Gothic.lua
+Options.lua

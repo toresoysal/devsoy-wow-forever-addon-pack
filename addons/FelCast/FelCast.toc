@@ -1,0 +1,16 @@
+## Interface: 16001
+## Title: FelCast
+## Notes: Fel flame cast bar, a heartbeat warning before your DoTs and curses run out, and shadow flame arcs beside your character when a proc makes a spell instant
+## Author: Tore
+## Version: 0.2.0
+## SavedVariables: FelCastDB
+## IconTexture: Interface\Icons\Spell_Fire_FelFlameRing
+
+Core.lua
+Templates.xml
+Cast.lua
+Dots.lua
+Schools.lua
+Proc.lua
+Options.lua
+Text.lua

@@ -1,0 +1,11 @@
+## Interface: 16001
+## Title: Forever Smart Bag |cFFC9A84C· Devsoy|r
+## Notes: One bag window, items grouped by type: potions together, gear together, trade goods together.
+## Author: Devsoy
+## Version: 1.0.1
+## X-Website: https://www.wowforeveraddon.com
+## SavedVariables: SmartBagDB
+## IconTexture: Interface\Icons\Inv_misc_bag_08
+
+Dil.lua
+Core.lua

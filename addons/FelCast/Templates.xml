@@ -1,0 +1,55 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+	<!-- Frame-by-frame flames wrapped around the cast bar. Blizzard runs flipbooks from XML
+	     only. 32 frames in 1 s. Sheets: Media/cast-flame (4 x 8 frames of 512 x 128) and its
+	     white-hot core at half size; both sit in one group, so the core stays on its flame. -->
+	<Frame name="FelCastFlameTemplate" virtual="true">
+		<Layers>
+			<Layer level="ARTWORK">
+				<Texture parentKey="Sheet" setAllPoints="true" alphaMode="ADD"/>
+				<Texture parentKey="Core" setAllPoints="true" alphaMode="ADD"/>
+			</Layer>
+		</Layers>
+		<Animations>
+			<AnimationGroup parentKey="Play" looping="REPEAT">
+				<FlipBook childKey="Sheet" duration="1" order="1" flipBookRows="8" flipBookColumns="4" flipBookFrames="32" flipBookFrameWidth="0" flipBookFrameHeight="0"/>
+				<FlipBook childKey="Core" duration="1" order="1" flipBookRows="8" flipBookColumns="4" flipBookFrames="32" flipBookFrameWidth="0" flipBookFrameHeight="0"/>
+			</AnimationGroup>
+		</Animations>
+	</Frame>
+	<!-- Proc warning (Proc.lua): a thin arc of shadow flame beside the character, ( and ).
+	     Media/proc-side-l and -r (mirror), 8 x 2 frames of 128 x 512; 16 frames in 0.8 s. -->
+	<Frame name="FelCastProcSideTemplate" virtual="true">
+		<Layers>
+			<Layer level="ARTWORK">
+				<Texture parentKey="Sheet" setAllPoints="true" alphaMode="ADD"/>
+				<Texture parentKey="Core" setAllPoints="true" alphaMode="ADD"/>
+			</Layer>
+		</Layers>
+		<Animations>
+			<AnimationGroup parentKey="Play" looping="REPEAT">
+				<FlipBook childKey="Sheet" duration="0.8" order="1" flipBookRows="2" flipBookColumns="8" flipBookFrames="16" flipBookFrameWidth="0" flipBookFrameHeight="0"/>
+				<FlipBook childKey="Core" duration="0.8" order="1" flipBookRows="2" flipBookColumns="8" flipBookFrames="16" flipBookFrameWidth="0" flipBookFrameHeight="0"/>
+			</AnimationGroup>
+		</Animations>
+	</Frame>
+	<!-- Proc warning (Proc.lua): shadow mist round the whole screen edge, like the low health
+	     red edge. Media/proc-mist: real smoke rendered in Blender (Mantaflow), 4 x 8 frames of
+	     512 x 256 stretched over the screen. The same sheet twice at two speeds (3.2 s and 4.9 s), so
+	     the smoke never seems to repeat. -->
+	<Frame name="FelCastProcMistTemplate" virtual="true">
+		<Layers>
+			<Layer level="ARTWORK">
+				<Texture parentKey="Sheet" setAllPoints="true" alphaMode="ADD"/>
+				<Texture parentKey="Core" setAllPoints="true" alphaMode="ADD"/>
+			</Layer>
+		</Layers>
+		<Animations>
+			<AnimationGroup parentKey="Play" looping="REPEAT">
+				<FlipBook childKey="Sheet" duration="3.2" order="1" flipBookRows="8" flipBookColumns="4" flipBookFrames="32" flipBookFrameWidth="0" flipBookFrameHeight="0"/>
+			</AnimationGroup>
+			<AnimationGroup parentKey="Drift" looping="REPEAT">
+				<FlipBook childKey="Core" duration="4.9" order="1" flipBookRows="8" flipBookColumns="4" flipBookFrames="32" flipBookFrameWidth="0" flipBookFrameHeight="0"/>
+			</AnimationGroup>
+		</Animations>
+	</Frame>
+</Ui>

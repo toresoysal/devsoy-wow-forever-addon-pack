@@ -1,0 +1,19 @@
+Forever Akıllı Çanta · Devsoy · 1.0.1
+=====================================
+
+Tek çanta penceresi, eşyalar türe göre gruplu: görev eşyaları, iksir/yemek/bandaj,
+ekipman, ticaret malları, tarifler, çanta ve cephane, diğer, çöp (gri), boş yer.
+Slotlar Blizzard'ın kendi çanta düğmeleri: sağ tıkla kullan veya sat, sürükle-bırak,
+shift ile böl. Arama kutusu ve Clean Up Bags düğmesi Blizzard çantasıyla aynı çalışır.
+
+Kurulum
+- Zip'i aç, ForeverAkilliCanta klasörünü World of Warcraft\_forever_\Interface\AddOns\ içine koy.
+- Oyunu tamamen kapatıp aç. Karakter ekranında AddOns listesinde işaretli olsun.
+
+Kullanım
+- B tuşu çantayı açar/kapatır. Satıcıda kendiliğinden açılır. Esc kapatır.
+- Başlıktan sürükleyerek taşı, yeri kaydedilir.
+- /sb  aç-kapat  ·  /sb sutun 12  genişlik (4-20)  ·  /sb blizzard  B tuşunu Blizzard çantasına ver/geri al
+
+İngilizcesi ayrı addon: Forever Smart Bag. İkisi birden kuruluysa yalnız biri çalışır.
+https://www.wowforeveraddon.com

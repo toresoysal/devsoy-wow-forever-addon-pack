@@ -1,0 +1,12 @@
+EZ Target
+Copyright (c) 2026 Devsoy. All rights reserved.
+
+EN: Free to use and to share unchanged, at no cost. Publishing a modified version,
+selling it or bundling it into a paid product needs written permission from Devsoy.
+Provided "as is", without warranty of any kind.
+
+TR: Ücretsiz kullanılabilir ve değiştirilmeden ücretsiz paylaşılabilir. Değiştirilmiş
+sürümü yayınlamak, satmak ya da ücretli bir ürüne koymak için Devsoy'un yazılı izni
+gerekir. Olduğu gibi sunulur, hiçbir garanti verilmez.
+
+https://www.wowforeveraddon.com

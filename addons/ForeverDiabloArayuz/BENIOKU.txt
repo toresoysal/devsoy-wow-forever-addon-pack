@@ -1,0 +1,30 @@
+Forever Diablo Arayüz · Devsoy · 1.0.0
+=======================================
+
+Diablo havasında aksiyon barları ve can/mana küreleri.
+- Kare, 3 boyutlu aksiyon barları: ekranın ortasında üç sıra, sağda iki sütun.
+  Blizzard'ın kendi düğmeleri, tuş atamaları ve sayfa geçişleri olduğu gibi çalışır.
+- Bekleme süresi sayısı, mana yetmeyince mavi, menzil dışında kırmızı kenar,
+  bekleme bitince kalp atışı.
+- Diablo tarzı can ve mana küreleri (sıvı, kabarcık, yüzey dalgası), XP çubuğu,
+  sınıf rengine göre kuzey ışığı.
+- Seçilebilir buton çerçevesi: Demir köşeler, Taş yuva, Gümüş telkari, Çerçevesiz.
+- Kürelere seçilebilir koyu halka.
+- Boyut ve görünürlük ayarı: bar boyu, küre boyu, savaş dışı ve savaşta görünürlük.
+
+Kurulum
+- Zip'i aç, ForeverDiabloArayuz klasörünü World of Warcraft\_forever_\Interface\AddOns\ içine koy.
+- Oyunu tamamen kapatıp aç. Karakter ekranında AddOns listesinde işaretli olsun.
+
+Komutlar
+- /dui options     ayar penceresi
+- /dui frame       buton çerçevesini değiştir     /dui ring    küre halkasını aç/kapat
+- /dui scale 1.2   bar boyu (0.6-1.6)            /dui orbs 1.1  küre boyu (0.5-1.5)
+- /dui alpha 0.8   savaş dışı görünürlük          /dui fight 1   savaşta görünürlük
+- /dui move        barları taşı (kilit aç/kapat)  /dui keys     tuş atama
+- /dui pages       sayfa kilidi (Shift+2-6 ve Shift+tekerlek)
+
+Cast barı ve DoT uyarısı bu addon'da değil: FelCast. Birim kartları SoulLedger'de.
+İngilizcesi ayrı addon: Forever Diablo UI. İkisi birden kuruluysa yalnız biri çalışır.
+Lisans: LICENSE.txt · görsel kaynakları: Media/_LICENSES.md
+https://www.wowforeveraddon.com

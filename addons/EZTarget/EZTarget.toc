@@ -1,0 +1,13 @@
+## Interface: 16001
+## Title: EZ Target |cFFC9A84C· Devsoy|r
+## Notes: An arrow over your target that turns green / yellow / red by your spell ranges, a quest mark on quest mobs and a class icon on players. /ezt for the menu.
+## Author: Devsoy
+## Version: 0.5.1
+## X-Website: https://www.wowforeveraddon.com
+## SavedVariables: EZTargetDB
+## IconTexture: Interface\Icons\Ability_hunter_snipershot
+
+Core.lua
+Range.lua
+Plate.lua
+Options.lua
