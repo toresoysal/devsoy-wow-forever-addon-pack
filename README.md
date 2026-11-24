@@ -12,6 +12,7 @@ They were built with Claude Code. The rules and test gates behind them are publi
 | [Forever Diablo UI](addons/ForeverDiabloUI) · [Arayüz (TR)](addons/ForeverDiabloArayuz) | 1.0.0 | Action bars and Diablo-style health and mana orbs | From scratch | Free to use, all rights reserved |
 | [Forever Smart Bag](addons/ForeverSmartBag) · [Akıllı Çanta (TR)](addons/ForeverAkilliCanta) | 1.0.1 | All your bags in one window, grouped by type | From scratch | Free to use, all rights reserved |
 | [EZ Target](addons/EZTarget) | 0.5.1 beta | Arrow over your target: green, yellow or red by spell range; quest mark; class icon in a gold ring | From scratch | Free to use, all rights reserved |
+| [SakuraMeter](addons/SakuraMeter) | 0.1.0 beta | Anime-style DPS/HPS meter on Blizzard's own damage meter data: themes, colour picker, class icons, five-alphabet name fonts | From scratch, with the [Claude Code plugin](https://github.com/toresoysal/wow-forever-addon-creator) | Free to use, all rights reserved (fonts: OFL) |
 | [Forever Turkish Pack](addons/ForeverTurkcePaket) | 0.2.3 | Questie with QuestieDB, a Turkish interface and Turkish quest text in the quest window | **Adapted** from Questie 12.13.0 | GPLv3 (Questie's licence) |
 
 "From scratch" and "adapted" are the two ways the Claude Code plugin is meant to be used: build a new addon, or change an existing one without breaking it.
@@ -31,7 +32,7 @@ Each folder has its own README with commands and limits.
 Each addon carries its own licence file and they differ:
 
 - **FelCast:** MIT. Use, change and share it freely.
-- **Forever Diablo UI, Forever Smart Bag, EZ Target:** free to use and to share unchanged. Publishing a modified version, selling it or bundling it into a paid product needs written permission from Devsoy. Forever Diablo UI includes third-party art under CC0, credited in `Media/_LICENSES.md`.
+- **Forever Diablo UI, Forever Smart Bag, EZ Target, SakuraMeter:** free to use and to share unchanged. Publishing a modified version, selling it or bundling it into a paid product needs written permission from Devsoy. Forever Diablo UI includes third-party art under CC0, credited in `Media/_LICENSES.md`; SakuraMeter bundles two fonts under the SIL Open Font License.
 - **Forever Turkish Pack:** GPLv3, because it is a modified Questie. Questie's own licence, README and credits are kept inside the folder; our changes are listed in its `NOTICE.md`.
 
 ## Reporting a bug

@@ -1,0 +1,13 @@
+## Interface: 16001
+## Title: |cffff8fb8Sakura|r Meter
+## Notes: Anime-style DPS/HPS meter on Blizzard's own damage meter data. Adjustable size, colours and fonts.
+## Author: Dev/Soy
+## Version: 0.1.0
+## SavedVariables: SakuraMeterDB
+## IconTexture: Interface\AddOns\SakuraMeter\Media\petal
+
+Log.lua
+Core.lua
+Theme.lua
+Meter.lua
+Options.lua
